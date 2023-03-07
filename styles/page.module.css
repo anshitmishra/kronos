@@ -192,7 +192,7 @@
   text-align: left;
 }
 
-.mainHolder2ITwo p {
+.mainHolder2Two p {
   position: relative;
   width: 100%;
   height: auto;
@@ -455,6 +455,8 @@
 
   .mainHolder2Two p {
     padding: 5px 15px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
 
