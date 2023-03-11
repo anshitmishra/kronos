@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { BsArrowRight, BsTelephone, BsInstagram, BsLinkedin } from "react-icons/bs";
 import React from 'react';
+import Link from 'next/link';
 export default function Home() {
   React.useEffect(() => {
     AOS.init({
@@ -30,11 +31,11 @@ export default function Home() {
               <h2 className={styles.mainHolderTwoHeading}>augmented reality</h2>
               <h2 className={styles.mainHolderTwoHeading2}>pre-event</h2>
               <br />
-              <h4>2023 biggest Tech Event Join us & Make the AR filter with us.</h4>
+              <h3>2023 biggest Tech Event Join us & Make the AR filter with us.</h3>
               <br />
-              <button ><b>Register Now <BsArrowRight style={{ margin: "0px 5px" }} /></b></button>
+              <Link href={"https://forms.gle/pBidD7snTGWBnM5t6"} passHref><button ><b>Register Now <BsArrowRight style={{ margin: "0px 5px" }} /></b></button></Link>
               <br />
-              <h4>amazing prizepoll and goodies</h4>
+              <h3>amazing prizepoll and goodies</h3>
 
             </div>
           </div>
