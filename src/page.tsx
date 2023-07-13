@@ -36,7 +36,6 @@ export default function Home() {
               <Link href={"https://forms.gle/pBidD7snTGWBnM5t6"} passHref><button ><b>Register Now <BsArrowRight style={{ margin: "0px 5px" }} /></b></button></Link>
               <br />
               <h3>amazing prizepoll and goodies</h3>
-
             </div>
           </div>
           <div className={styles.mainHolderOne} >
